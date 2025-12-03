@@ -1,0 +1,9 @@
+[데이터 설명]
+ • 출처: HYCOM (Hybrid Coordinate Ocean Model) 표층 수온 데이터 (https://www.hycom.org)
+ • 기간: 2020-06-01 00:00:00 ~ 2020-08-07 21:00:00
+ • 깊이: 0 m (표층) 
+ • 시간 해상도: 3시간 간격
+ • 공간 좌표: 위도(lat), 경도(lon) 0.04° (latitude) × 0.08° (longitude)
+ • 고유 격자 수: 250개 
+ • 컬럼 구성: time, lat, lon, water_temp, depth
+ * 위도·경도 값이 부동소수점(floating-point) 형태로 저장되어 있어, 동일한 격자라도 소수점 값이 미세하게 다름
